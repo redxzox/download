@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/download.py": {
+      "maxDuration": 300
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/download.py"
+    }
+  ]
+}
